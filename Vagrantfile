@@ -8,6 +8,7 @@ Vagrant.configure("2") do |config|
         servidor.vm.synced_folder "kube/", "/home/vagrant"
         servidor.vm.provider "virtualbox" do |v|
             v.cpus = 2
+            v.memory = 2048
         end
     end
 end

@@ -1,6 +1,7 @@
 .vagrant
 .bash_history
 .sudo_as_admin_successful
+.viminfo
 kube/.cache
 kube/.kube
 kube/.minikube
